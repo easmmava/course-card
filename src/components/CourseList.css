@@ -1,0 +1,122 @@
+.course-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .course-item {
+    background-color: white;
+    width: 600px;
+    height: 190px;
+    padding: 10px;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px lightgray;
+    margin-bottom: 20px;
+  }
+  
+  .course-item__img {
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+  }
+  
+  .course-item__img img {
+    border-radius: 15px;
+    height: 170px;
+    width: 270px;
+  }
+  
+  .course-item__detail {
+    padding: 10px;
+    width:400px ;
+  }
+  
+  .course-item__body{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .title{
+  font-size:x-large;
+  font-weight: bold;
+  }
+  
+  .description{
+      color: rgb(142, 151, 188);
+      font-size:small;
+      padding-top: 10px;
+  }
+  
+  .rate{
+      font-weight: bold;
+      font-size: small;
+  }
+  
+  .tags{
+      margin-top: 20px;
+  }
+  
+  .caption{
+      margin-top: 15px;
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .badge{
+      margin-right: 5px;
+      font-size:x-small;
+      font-weight:bold;
+      border-radius: 30px;
+      padding-right: 10px;
+      padding-left: 10px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+  }
+  
+  
+  .badge--secondary{
+      background-color: rgb(244, 244, 249);
+      color: rgb(84, 85, 90);
+  }
+  
+  .date{
+      color: rgb(133, 133, 136);
+      font-size: x-small;
+  }
+  
+  .badge--primary{
+      background-color: rgb(229, 255, 245);
+      color: rgb(0, 168, 64);
+  }
+  
+  .badge--danger{
+    background-color: rgb(255, 237, 207);
+    color: rgb(179, 57, 20);
+  }
+  
+  .course-status{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: rgb(102, 106, 122);
+    font-size: small;
+    margin-bottom: 20px;
+  }
+  
+  .course-status.active{
+    font-weight: bold;
+    color: black;
+  }
+  
+  .footer{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    margin-bottom: 40px;
+  }
