@@ -24,7 +24,7 @@ function CourseCard({ course }) {
           </div>
           <div className="caption">
             <div className="date">
-              {new Date().toLocaleDateString("en-Us", {
+              {new Date(course.start).toLocaleDateString("en-Us", {
                 month: "short",
                 year: "numeric",
                 day: "numeric",
